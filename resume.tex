@@ -1,0 +1,185 @@
+\documentclass{article}
+%\usepackage{fullpage}
+
+\oddsidemargin -.125in
+\evensidemargin 1.0in
+\textwidth 6.5in
+\headheight 0.0in
+\topmargin -.6in
+\textheight 10.5in
+
+\pagestyle{empty}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\begin{document}
+
+\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+{\large \textbf{Joseph F. Miklojcik III}}  & \\
+56 Freemont Court  & 732-754-1003 \\
+Somerset, NJ, 08873 & jfm3@jfm3.org \\
+\end{tabular*}
+
+\vspace{0.2in}
+
+%{\large \textbf{Objective}}
+%
+%To lead a team of rebellious misfit programmers through a series of
+%zany yet heartwarming adventures, culminating in surprising victories
+%that remind us all of life's rich pageant.
+%\vspace{0.2in}
+
+{\large \textbf{Employment}}
+\vspace{0.1in}
+  \begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+    \textbf{Senior System Administrator} & April 2009 - Present \\
+    Shopwiki Inc. & New York City, NY \\
+  \end{tabular*}
+  \begin{itemize}
+    \item Supported entire infrastructure from crawling to user facing
+      applications (Java, C++, Python) on ~200 machines in two data
+      centers.  Analyzed, monitored, and improved performance,
+      availability, and capacity.
+    \item Ran Terabyte scale MySQL, MongoDB, and file systems in
+      various software and hardware RAIDs (\texttt{ext3},
+      \texttt{ext4}, \texttt{mod\_md}, 3ware/LSI).
+    \item Automated installation infrastructure (Anaconda, Kickstart)
+      and monitoring infrastructure (Nagios, Munin).  Maintained
+      in-house monitoring system (Java).
+    \item Configuration and maintenance of load balancer (ZXTM),
+      geo-located DNS (UltraDNS), external site testing (Websitepulse).
+    \item Managed Amazon EC2 instances, AMIs, EBS volumes, and S3
+      storage.  Implemented backups and archives for ~5TB of MongoDB
+      and MySQL to Amazon S3 storage.
+  \end{itemize}
+
+  \begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+    \textbf{Owner and General Manager} & May 2006 - Present \\
+    Nectarine City LLC & Somerset, NJ \\
+  \end{tabular*}
+  \begin{itemize}
+    \item Provided hundreds of billable hours of FOSS IT consulting
+      services and reports at hourly rates.
+    \item Wrote ``Nectarine City Handbook of C Programming Style.''
+    \item Everything else.
+  \end{itemize}
+
+  \begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+    \textbf{Senior Software Engineer} & September 2006 - April 2009 \\
+    WINLAB, Rutgers University & North Brunswick, NJ \\
+  \end{tabular*}
+  \begin{itemize}
+    \item Maintained ORBIT (\texttt{orbit-lab.org}), a 400 node grid
+      of computers running Linux (2.6.x, netfilter, frisbee), used for
+      performing wireless network research.
+    \item Maintained NodeHandler/NodeAgent; RESTful web services for
+      operating the ORBIT grid (Ruby 1.8, SBCL 1.x, MySQL 5.x,
+      PostgreSQL 8.x).  ORBIT software installs 400 nodes with full
+      Linux application stacks in under 8 minutes, and provides a
+      RESTful control framework for managing highly distributed
+      experiment software.
+    \item Virtualized experiment control infrastructure (Xen 3.x),
+      including mechanisms for collecting GB of experiment data from
+      the 400 node grid.
+    \item Wrote firmware for second generation node hardware control
+      (C99, uIP, ARM, GCC 4).
+    \item Wrote graphic console for visualizing real time experiment
+      results from USRP software-defined radio devices (C99, UDP).
+    \item Provided basic computing infrastructure for WINLAB,
+      including email, web, file, and print services (Ubuntu 7, 8),
+      Trac (9.x, 10.x), and an openMosix cluster.
+  \end{itemize}
+
+  \begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+    \textbf{System Programmer} & November 1997 - September 2006 \\
+    Rutgers University & Piscataway, NJ \\
+  \end{tabular*}
+  \begin{itemize}
+  \item Led team of eight student system programmers to maintain 700+
+    package repository at \texttt{rpm.rutgers.edu}.  Ported this
+    packaged software to Solaris 7, 8, and 9.  Made significant
+    improvements to several Open Source projects, including OpenLDAP,
+    YUM, and FAI.  Maintained in-house PAM modules (Python, C).
+  \item Mentored other system administrators at University.
+  \item Consulted for thousands of hours throughout the University's
+    hundreds of departments; everything from multi-year plans with
+    \${}300K budgets to amateur psychotherapy and pulling cable.
+    Departments ranged from Libraries to Medical Research
+    labs. (Solaris 7, 8, 9, NFS, RHEL 3, Debian 2.x, netfilter, Perl
+    5.x, PHP 3.x, Postfix, OpenLDAP, OpenSSL, OpenSSH)
+  \item Designed and implemented automated system administration tools
+    for Solaris systems (\texttt{cfengine}, RPM, APT, NAGIOS,
+    JumpStart, Kickstart, SystemImager).  These tools allowed four
+    full time system administrators to run between 100 and 200 servers
+    for ~70,000 users.
+  \item Administrated Solaris systems for Administrative Services
+    (Solaris 7, Oracle 7x, 8x, ADSM, DiskSuite).  Supported two DBAs
+    and four Developers in traditional SA role on systems with tens of
+    thousands of users, meant to migrate away from a Mainframe.
+    Devised disaster recovery plan.  Passed University audits at
+    record levels, and wrote ``best practices'' documents.
+  \end{itemize}
+
+  \begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+    \textbf{Software Engineer and Technical Writer} & May 1995 - October 1997 \\
+    Pipeline Associates & Parsippany, NJ \\
+  \end{tabular*}
+  \begin{itemize}
+  \item Wrote \texttt{setpagedevice} paper handling code for
+    Powerpage, a Postscript interpreter (K\&R C, C90, Postscript
+    L2/L3).
+  \item Ported Powerpage to four different compiler/hardware
+    platforms.  Worked with QA group to ensure port correctness.
+  \item Consulted for Pipeline customers, integrating Powerpage into
+    seven distinct printers.  Worked closely with customer engineering
+    teams.
+  \item Wrote three engineering manuals for the Powerpage line of
+    products; an Integration Guide, a Programming Style Guide, and a
+    detailed Product Overview.  These were used both by customers and
+    as marketing material.
+  \item Wrote scripts for automated regression tests, working closely
+    with QA department (PostScript, bash, C).  Developed and
+    documented strategies for best use of Genoa PostScript test suite
+    results (PostScript, bash, C).
+  \end{itemize}
+
+  \begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+    \textbf{Member of Technical Staff} & August 1988 - August 1994 \\
+    Unipress Software & Edison, NJ \\
+  \end{tabular*}
+  \begin{itemize}
+  \item Maintained Unipress Emacs, Cmacs, and Adamacs (K\&R C, MLisp).
+  \item Wrote a portable extension language interpreter close to R3RS
+    Scheme, including an efficient garbage collector (K\&R C) and
+    non-blocking I/O facilities.
+  \item Ported over five software products between Solaris, HPUX, AIX,
+    IRIX, and many other versions of UNIX during the early UNIX
+    Workstation craze.  Made C/C++ developer kits for UNIX
+    workstations, including correctly built X11 and OSF/Motif
+    libraries (K\&R C, POSIX.x).
+  \item Evaluated tens of software products as Unipress considered
+    buying the rights to resell them.  Worked closely with
+    business/marketing teams.
+  \item Wrote an instrumented C Compiler, which generated self-testing
+    object code. (K\&R C, various parser generators).
+  \item Editor of \textit{Unipress Emacs User Guide} and
+    \textit{Unipress Emacs Reference Manual}, over 1000 pages of
+    documentation.  Authored regular Unipress Technical Bulletins,
+    reference cards, release notes, and per-version install
+    instructions. (Framemaker 3.0, 4.0)
+  \end{itemize}
+\vspace*{0.2in}
+{\large \textbf{Education}}
+\vspace*{0.1in}
+  \begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+    \textbf{Rutgers University} & New Brunswick, NJ \\
+    BA with Honors in Computer Science, 2005 & \\
+  \end{tabular*}
+
+\vspace*{0.2in}
+\begin{center}
+\textbf{References available on request.}
+\end{center}
+
+\end{document}
